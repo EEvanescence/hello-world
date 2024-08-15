@@ -23,7 +23,7 @@ async function handleRequest(request) {
     const portsList = [443, 8443, 2053, 2096, 2087, 2083];
     const domain = 'loyalty-is.pages.dev'; // Replace with your domain.
     const userUUID = '10432a5d-da29-4985-bb91-27cea3c151b6'; // Replace with your User UUID.
-    const bestip = '188.114.97.3'; // Replace with your preferred cf clean ip or your workers.dev / pages.dev domain.
+    const bestip = 'zula.ir'; // Replace with your preferred cf clean ip or your workers.dev / pages.dev domain.
 
     // Randomized constants
     const randomPort = selectRandomItem(portsList);
@@ -131,9 +131,9 @@ async function handleRequest(request) {
       "protocol": "freedom",
       "settings": {
         "fragment": {
-          "packets": "1-1",
-          "length": "1403",
-          "interval": "1"
+          "packets": "tlshello",
+          "length": "10-30",
+          "interval": "1-2"
         }
       },
       "streamSettings": {
